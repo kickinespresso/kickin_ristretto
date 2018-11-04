@@ -44,8 +44,8 @@ module KickinRistretto
 
   # Deletes each of the files
   def delete_files(image_files)
-    image_files.each { |image_file| puts "Deleting #{image_file}" }
-    #image_files.each {|image_file| File.delete(image_file) if File.exist?(image_file)}
+    #image_files.each { |image_file| puts "Deleting #{image_file}" }
+    image_files.each {|image_file| File.delete(image_file) if File.exist?(image_file)}
   end
 
 end

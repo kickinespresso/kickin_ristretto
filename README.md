@@ -39,4 +39,8 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the KickinRistretto project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/kickin_ristretto/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the KickinRistretto project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/kickinespresso/kickin_ristretto/blob/master/CODE_OF_CONDUCT.md).
+
+## Sponsors
+
+This project is sponsored by [KickinEspresso](https://kickinespresso.com/?utm_source=github&utm_medium=sponsor&utm_campaign=opensource)
