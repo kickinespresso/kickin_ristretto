@@ -46,3 +46,9 @@ Everyone interacting in the KickinRistretto project’s codebases, issue tracker
 ## Sponsors
 
 This project is sponsored by [KickinEspresso](https://kickinespresso.com/?utm_source=github&utm_medium=sponsor&utm_campaign=opensource)
+
+
+## Build
+
+    gem build kickin_ristretto.gemspec
+        
