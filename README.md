@@ -1,5 +1,9 @@
 # KickinRistretto
 
+[![Gem](https://img.shields.io/gem/v/:package.svg)](https://rubygems.org/gems/kickin_ristretto)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](LICENSE.md)
+
 Rake tasks that check a rails project for unused assets and removes them.
 
 ## Features
