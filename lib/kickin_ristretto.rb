@@ -24,7 +24,7 @@ module KickinRistretto
   def clean_non_referenced_images(image_directory = 'app/assets/images')
     images = search_directory(image_directory)
     legacy_images = collect_none_referenced_images(images)
-    puts "\n Is this what you want to happen? [Y/N]"
+    puts "\n Delete Non Referenced Images? [Y/N]"
     answer = STDIN.gets.chomp
     if answer == 'Y'
       delete_files(legacy_images)
@@ -45,19 +45,17 @@ module KickinRistretto
     Prawn::Document.generate("image_audit_report.pdf") do
       text "Image Audit Report"
 
-      data = [["File Path", "Image"]]
+      # data = [["File Path", "Image"]]
+      # filtered_images.each do |image|
+      #   data += [[image, {image: image, :fit => [400, 400]}]]
+      # end
+      # table(data, :header => true)
+
       filtered_images.each do |image|
-        # puts image
-        # text image
-        # image image
-        data += [[image, {image: image, :fit => [400, 400]}]]
+        text image
+        image image, fit: [400, 400]
       end
 
-
-      #data += [["..."]] * 30
-      table(data, :header => true)
-
-      #image "#{Prawn::DATADIR}/images/pigs.jpg"
     end
   end
 

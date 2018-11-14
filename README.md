@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-    $ rake kickin_ristretto:analyze
+    $ rake kickin_ristretto:search_images
     
     $ rake kickin_ristretto:image_audit_report
 
