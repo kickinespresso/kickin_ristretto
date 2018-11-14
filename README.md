@@ -1,6 +1,8 @@
 # KickinRistretto
 
-[![Gem](https://img.shields.io/gem/v/:package.svg)](https://rubygems.org/gems/kickin_ristretto)
+
+[![Gem](https://img.shields.io/gem/v/kickin_ristretto.svg)](https://rubygems.org/gems/kickin_ristretto)
+[![GitHub issues](https://img.shields.io/github/issues/kickinespresso/kickin_ristretto.svg)](https://github.com/kickinespresso/kickin_ristretto/issues)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](LICENSE.md)
 
